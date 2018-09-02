@@ -25,3 +25,14 @@ Run this command in the application directory to run the test suite
 	php composer.phar test
 
 That's it! Now go build something cool.
+
+
+Um Endpoint com Slim, Eloquent com Phinx.
+
+composer install
+
+Configure o seu banco no settings.php
+
+Para criar o migrate de qualquer tabela : vendor/bin/phinx create NomeDaTabelaTable
+
+Para criar as tabelas através dos migrates: vendor/bin/phinx migrate.
